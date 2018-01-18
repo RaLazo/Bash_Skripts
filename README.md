@@ -19,23 +19,24 @@ paar Dinge vor installiert werden
 
 Für das Auslesen der CPU & des RAM wird Pyhton benötigt  
 
-'''
+```
 sudo apt-get install python
 pip install psutil
-'''
+```
 Für die Temperatur
-'''
+```
 sudo apt-get install vcgencmd
-'''
+```
 ## Unter Opensuse:
 
 Für die Temperatur:
-'''
+```
 zypper install sensors
-'''
+```
 # Daten
 Man erhält folgende Daten:
-Raspian | Opensuse
+
+   Raspian 	 | 	Opensuse
 ------------ | -------------
 Temperatur | Temperatur
 CPU Auslastung | Cluster Status (Ceph)
